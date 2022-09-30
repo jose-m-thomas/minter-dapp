@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "M88Verse";
-const description = "M88Verse";
+const namePrefix = "JT1Verse";
+const description = "JT1Verse";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://m88verse.io", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://JT1verse.io", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -48,8 +48,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = "rinkeby"; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = "M88Verse";
-const CONTRACT_SYMBOL = "M88";
+const CONTRACT_NAME = "JT1Verse";
+const CONTRACT_SYMBOL = "JT1";
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = "0x3BA5E1bE34F463C991186856cA2C3A0A4A9A6199";
 const TREASURY_ADDRESS = "0x3BA5E1bE34F463C991186856cA2C3A0A4A9A6199";
@@ -74,7 +74,7 @@ let CONTRACT_ADDRESS = "0xEddFCe01e10e026cD163268b33047027448CE34b"; // If you w
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "M88Verse"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "JT1Verse"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE =
   "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
@@ -95,7 +95,7 @@ try {
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://m88Verse.io",
+  external_url: "https://JT1Verse.io",
   creators: [
     {
       address: "0x3BA5E1bE34F463C991186856cA2C3A0A4A9A6199",
